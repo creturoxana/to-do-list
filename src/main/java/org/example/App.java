@@ -30,7 +30,7 @@ public class App {
 
 //    taskRepository.deleteTask(1);
 
-    List<Task> tasks = taskRepository.getTasks();
+    taskRepository.getTasks()
     System.out.println(tasks);
   }
 }
